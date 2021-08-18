@@ -1,0 +1,66 @@
+# Global snippets
+# Addde by LiR
+
+priority -60
+
+snippet def "#define ..."
+#define ${1}
+endsnippet
+
+snippet /* "/* ... */"
+/* ${1} */
+endsnippet
+
+snippet /** "/** ... **/"
+/*
+ * ${1}
+ */
+endsnippet
+
+snippet /*f "/** function ... **/"
+/******************************************************************************
+ * FUNCTION    : 
+ * AUTHOR      : LiR <6007381@qq.com>
+ * DESCRIPTION : 
+ * INPUT       : 
+ * OUTPUT      : 
+ * RETURN      : 
+ *****************************************************************************/
+endsnippet
+
+snippet ifc
+#ifdef __cplusplus
+extern "C" {
+#endif
+#ifdef __cplusplus
+}
+#endif
+endsnippet
+
+snippet /*h
+/********************************************************************
+ * Brief        : ${1}
+ * Author       : LiR <6007381@qq.com>
+ * Created Date : `!v strftime("%Y-%m-%d")`
+ ********************************************************************/
+endsnippet
+
+snippet /*hs
+/*
+ * Copyright `&enc[:2] == "utf" ? "©" : "(c)"` `strftime("%Y")` LiR <6007381@qq.com>. All Rights Reserved.
+ *
+ * Brief: ${1}
+ */
+endsnippet
+
+snippet #h
+#!/bin/sh
+#
+# Brief: ${1}
+#
+# Author: LiR <6007381@qq.com>
+endsnippet
+
+snippet ME
+LiR <6007381@qq.com>
+endsnippet
